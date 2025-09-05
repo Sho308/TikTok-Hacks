@@ -1,0 +1,14 @@
+# TikLite — Demo TikTok Clone (Web → APK)
+
+This repository contains a demo TikTok-like web app (HTML/CSS/JS).  
+When pushed to `main`, GitHub Actions will run and build a Cordova debug APK automatically.
+
+## How to use
+1. Make sure files are present: `index.html`, `styles.css`, `script.js`, `dp.png`, `sample.mp4`.
+2. Push to GitHub `main` branch.
+3. Go to Actions → "Build Cordova APK" → Click the latest run → Wait for job finish.
+4. Download artifact `tiklite-apk` (app-debug.apk) from the run page.
+
+## Notes
+- This is a local demo. All likes/views/followers are stored locally in browser storage when running as WebApp or inside the APK.
+- If sample.mp4 is large, consider using a small test video.
